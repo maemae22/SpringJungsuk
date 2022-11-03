@@ -20,7 +20,8 @@ public class Hello {
 		System.out.println(iv); // OK
 	}
 	
-	public static void main2() { // static 메서드 - cv만 사용 가능
+	private static void main2() { // static 메서드 - cv만 사용 가능
+		System.out.println("private");
 		System.out.println(cv); // OK
 //		System.out.println(iv); // ERROR
 	}
