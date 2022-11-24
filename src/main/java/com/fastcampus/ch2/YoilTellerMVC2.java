@@ -1,15 +1,15 @@
 package com.fastcampus.ch2;
 
-import java.util.Calendar;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.Calendar;
+
 @Controller
-public class YoilTellerMVC {
+public class YoilTellerMVC2 {
 
     // 예외 처리
     @ExceptionHandler(Exception.class)
@@ -18,7 +18,7 @@ public class YoilTellerMVC {
         return "yoilError";
     }
 
-    @RequestMapping("/getYoilMVC") // http://localhost/ch2/getYoilMVC
+    @RequestMapping("/getYoilMVC2") // http://localhost/ch2/getYoilMVC2
     public String main(@RequestParam(required = true) int year,
                        @RequestParam(required = true) int month,
                        @RequestParam(required = true) int day, Model model) {
