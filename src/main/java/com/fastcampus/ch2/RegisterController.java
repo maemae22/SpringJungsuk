@@ -37,6 +37,8 @@ public class RegisterController {
             //return "redirect:/register/add?msg="+msg; // URL재작성(rewriting)
             model.addAttribute("msg", msg);
             return "redirect:/register/add"; // URL재작성(rewriting)
+
+            //return "forward:/register/add";
         }
 
         // 2. DB에 신규회원 정보를 저장
