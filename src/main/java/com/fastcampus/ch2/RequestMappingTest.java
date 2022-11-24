@@ -3,7 +3,8 @@ package com.fastcampus.ch2;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
+// 다음 실습 위해 지워둠 .. Test 하고 싶을 때는 다시 주석 뺴서 Controller 등록해주면 된다 !
+// @Controller
 public class RequestMappingTest {
 //  @RequestMapping({"/login/hello.do", "/login/hi.do"}) 
     @RequestMapping("/login/hello.do") // http://localhost/ch2/login/hello.do

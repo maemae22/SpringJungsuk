@@ -1,3 +1,5 @@
+// 다음 실습 위해 필터 잠시 지워둠
+/*
 package com.fastcampus.ch2;
 
 import java.io.IOException;
@@ -41,3 +43,4 @@ public class PerformanceFilter implements Filter {
 	}
 
 }
+*/
